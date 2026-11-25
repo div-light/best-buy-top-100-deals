@@ -1,0 +1,13 @@
+name: Best Buy 100 Deals
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  hello:                     
+    runs-on: "ubuntu-latest"   
+    steps:
+      - run: echo "hello world"
