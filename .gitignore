@@ -12,3 +12,4 @@ wheels/
 .vscode
 *_cache
 src/
+*.txt
